@@ -18,11 +18,11 @@
 //! agnostic but provides implementations for CSV and Apache Parquet file formats. A DataFrame API
 //! is also provided.
 
-extern crate arrow;
 extern crate byteorder;
 extern crate bytes;
 extern crate clap;
 extern crate csv;
+extern crate datafusion_arrow;
 extern crate datafusion_rustyline;
 extern crate fnv;
 extern crate json;
